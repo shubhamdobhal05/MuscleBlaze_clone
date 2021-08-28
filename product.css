@@ -1,0 +1,146 @@
+* {
+    color: #2c2c2c;
+  }
+  .top-nav {
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    align-items: center;
+    height: 70px;
+  }
+    
+    
+  .top-nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: Poppins,sans-serif;
+    font-weight: 600;
+    
+  }
+  .top-nav input {
+  
+    width: 65%;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid grey;
+  }
+  .active {
+    padding-left: 40px;
+    padding-right: 20px;
+    font-weight: 900 !important;
+    font-size: x-large !important;
+  }
+  .sign {
+    padding-right: 10px;
+    padding-left: 45px;
+    font-size: 14px !important;
+  }
+  .login {
+    padding-left: 0px;
+    font-size: 14px !important;
+  }
+  .content-wrapper {
+    width: 100%;
+    display: flex;
+    box-shadow: 0px 3px 8px #888888;
+    background: #eee;
+   
+  }
+  .content-wrapper h3 {
+    padding-right: 15px;
+    padding-left: 70px;
+    font-family: Poppins,sans-serif;
+    
+    font-size: small;
+  }
+  .dropdown1 {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content1 img {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    width: 70px;
+    height: 70px;
+    padding: auto;
+    margin: 20px;
+  }
+  
+  .dropdown1:hover .dropdown-content1 {
+    display: flex;
+  }
+  .dropdown-heading1 {
+    width: fit-content;
+    height: max-content;
+  }
+  .dropdown-content1 a {
+    color: rgb(56, 55, 55);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    width: 90px;
+    height: 30px;
+    padding: auto;
+    margin-left: 40px;
+   
+    font-family: Poppins,sans-serif;
+  }
+  
+
+  .div1 {
+    float: right !important;
+    font-size: larger;
+    font-family: Poppins,sans-serif; 
+      
+  }
+  .product-content {
+
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+   
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+  }
+  .dropdown1:hover .product-content {
+    display: flex;
+    
+  }
+  .list1 h3 {
+    color: #e9370a;
+    
+   
+  }
+  .list1 a {
+    text-decoration: none;
+    margin-left: 70px;
+    color: #393939;
+  }
+  .list1 {
+    font-family: Poppins,sans-serif;
+    font-size: 14px;
+   
+    margin: 30px;
+    
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
