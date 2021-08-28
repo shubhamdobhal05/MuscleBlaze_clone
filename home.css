@@ -1,0 +1,253 @@
+* {
+  color: #2c2c2c;
+}
+.top-nav {
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  align-items: center;
+  height: 70px;
+}
+  
+  
+.top-nav a {
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+  margin-top: 10px;
+  font-size: 18px;
+  font-family: Poppins,sans-serif;
+  font-weight: 600;
+  
+}
+.top-nav input {
+
+  width: 65%;
+  height: 30px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 1px solid grey;
+}
+.active {
+  padding-left: 40px;
+  padding-right: 20px;
+  font-weight: 900 !important;
+  font-size: x-large !important;
+}
+.sign {
+  padding-right: 10px;
+  padding-left: 45px;
+  font-size: 14px !important;
+}
+.login {
+  padding-left: 0px;
+  font-size: 14px !important;
+}
+.content-wrapper {
+  width: 100%;
+  display: flex;
+  box-shadow: 0px 3px 8px #888888;
+  background: #eee;
+ 
+}
+.content-wrapper h3 {
+  padding-right: 15px;
+  padding-left: 70px;
+  font-family: Poppins,sans-serif;
+  
+  font-size: small;
+}
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content1 img {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  width: 70px;
+  height: 70px;
+  padding: auto;
+  margin: 20px;
+}
+
+.dropdown1:hover .dropdown-content1 {
+  display: flex;
+}
+
+.dropdown-content1 a {
+  color: rgb(56, 55, 55);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  width: 90px;
+  height: 30px;
+  padding: auto;
+  margin-left: 40px;
+ 
+  font-family: Poppins,sans-serif;
+}
+#whatsNew, #more {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-gap: 10px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: rgb(241, 238, 238);
+  width: 100%;
+
+  
+}
+#whatsNew div {
+  width: 70%;
+  border: 1px solid rgb(214, 213, 213);
+  background-color: white;
+  margin-left: 20px;
+  font-family: Poppins,sans-serif;
+}
+h6 {
+  color: grey;
+}
+.h3 {
+  margin: 70px 100px;
+  white-space: nowrap;
+  font-family: Poppins,sans-serif;
+  text-transform: capitalize;
+  font-size: 25px;
+  line-height: 31px;
+  font-weight: 600;
+  color: #2c2c2c;
+ 
+}
+#more div {
+  width: 70%;
+  border: 1px solid rgb(214, 213, 213);
+  background-color: white;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-family: Poppins,sans-serif;
+}
+div > p {
+  font-family: Poppins,sans-serif;
+  font-size: 12px;
+  width: 90%;
+  margin-left: 5%;
+  line-height: 26px;
+  text-decoration: none;
+  word-spacing: 4px;
+  color: #2c2c2c;
+  font-weight: 400;
+}
+hr {
+  width: 88%;
+  margin-left: 5%;
+}
+span {
+  font-weight: 800;
+}
+.head {
+  margin-left: 65px;
+}
+.product-content {
+
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+ 
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  
+}
+.dropdown1:hover .product-content {
+  display: flex;
+  
+}
+.list1 h3 {
+  color: #e9370a;
+  
+ 
+}
+.list1 a {
+  text-decoration: none;
+  margin-left: 70px;
+}
+.list1 {
+  font-family: Poppins,sans-serif;
+  font-size: 14px;
+ 
+  margin: 30px;
+  
+}
+.tabContent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  
+}
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  margin-left: 70px;
+  font-family: Poppins,sans-serif;
+  
+
+}
+.tab button:hover {
+  background-color: #ddd;
+}
+.tab button.active {
+  background-color: #ccc;
+}
+.display {
+  display: grid;
+  grid-template-columns: 25% 20% 20% 20%;
+  grid-gap: 10px;
+
+}
+div > div > img {
+  width: 100px;
+}
+.display-item {
+ 
+  margin-left: 40px;
+  padding-left: 20px;
+}
+div > div > div > h5 {
+  color: grey;
+  font-family: Poppins,sans-serif;
+}
+div > div > div > h3 {
+  font-family: Poppins,sans-serif;
+}
+.tab h3 {
+  margin-left: 40px;
+  font-family: Poppins,sans-serif;
+
+}
+
+
+
+  
